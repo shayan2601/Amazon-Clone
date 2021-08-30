@@ -1,0 +1,12 @@
+.banner {
+  position: relative;
+  z-index: 10;
+}
+.gradient {
+  position: absolute;
+  height: 220px;
+  background-image: linear-gradient(to top, rgb(65, 65, 65), transparent);
+  z-index: 50;
+  width: 100%;
+  bottom: 0;
+}

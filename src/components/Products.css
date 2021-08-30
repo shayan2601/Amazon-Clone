@@ -1,0 +1,31 @@
+.products {
+  display: grid;
+  grid-gap: 30px;
+  padding: 20px;
+  grid-auto-flow: row dense;
+}
+@media (min-width: 786px) {
+  .products {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: -208px;
+  }
+  .secondImage {
+    column-span: all;
+  }
+  .fourToFive {
+    column-span: 2;
+  }
+}
+@media (min-width: 1094px) {
+  .products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1286px) {
+  .products {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+}
